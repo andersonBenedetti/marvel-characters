@@ -1,8 +1,22 @@
-# React + Vite
+Este repositório abriga um aplicativo desenvolvido com React.js, projetado para listar personagens da Marvel.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Segue abaixo as principais tecnologias utilizadas neste projeto:
 
-Currently, two official plugins are available:
+<div style="margin-top: 20px">
+    <ul>
+        <li>
+            HTML/CSS ✔️
+        </li>
+        <li>
+            JavaScript ✔️
+        </li>
+        <li>
+            React.js ✔️
+        </li>
+        <li>
+           Vite ✔️
+        </li>
+    </ul>
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Overview: <a href="#">#<a>
