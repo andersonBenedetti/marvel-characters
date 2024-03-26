@@ -132,12 +132,13 @@ img {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1240px;
   padding: 0 20px;
   margin: 0 auto;
 }
 
 .loading {
+  margin: 50px auto;
   text-align: center;
   font-size: 24px;
 }

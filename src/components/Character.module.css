@@ -1,0 +1,58 @@
+.card {
+  padding: 5px;
+  border: 1px solid #000;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.card footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.name {
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description span {
+  font-weight: bold;
+}
+
+.comics span {
+  font-weight: bold;
+}
+
+.comicsList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style: disc;
+}
+
+.comics li {
+  margin-left: 20px;
+}
+
+.delete {
+  display: block;
+  margin: 20px auto;
+  background: none;
+  border: 2px solid red;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: red;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.delete:hover {
+  transform: scale(1.1);
+}

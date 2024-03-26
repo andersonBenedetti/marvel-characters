@@ -11,13 +11,20 @@ export default function App() {
   const [characters, setCharacters] = useState([]);
   const [loading, setLoading] = useState(false);
 
+  const removeCharacters = (id) => {
+    const newCharacters = characters.filter(
+      (characters) => characters.id !== id,
+    );
+    setCharacters(newCharacters);
+  };
+
   useEffect(() => {
+    setLoading(true);
     axios
       .get(
         `http://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}`,
       )
       .then((r) => {
-        setLoading(true);
         setCharacters(r.data.data.results);
       })
       .catch((error) => console.log(error))
@@ -34,7 +41,7 @@ export default function App() {
 
   return (
     <div>
-      <Characters characters={characters} />
+      <Characters characters={characters} removeCharacters={removeCharacters} />
     </div>
   );
 }
