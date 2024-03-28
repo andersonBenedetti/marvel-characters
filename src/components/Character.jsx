@@ -21,9 +21,9 @@ export default function Character({character, removeCharacters}) {
             </p>
           ) : (
             <>
-              <span>Comics:</span>
+              <span>Latest Comics:</span>
               <ul className={styles.comicsList}>
-                {comics.items.map((comic, index) => {
+                {comics.items.slice(0, 4).map((comic, index) => {
                   return <li key={index}>{comic.name}</li>;
                 })}
               </ul>
