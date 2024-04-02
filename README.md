@@ -19,4 +19,4 @@ Este repositório abriga um aplicativo desenvolvido com React.js, projetado para
     </ul>
 </div>
 
-### Overview: <a href="https://marvel-characters-anderson.netlify.app/">Meu teste<a>
+### Overview: <a href="https://marvel-characters-anderson.netlify.app/" target="_blank">Meu teste<a>
