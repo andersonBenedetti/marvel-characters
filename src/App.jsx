@@ -25,7 +25,7 @@ export default function App() {
     setLoading(true);
     axios
       .get(
-        `http://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}&offset=${
+        `https://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}&offset=${
           (page - 1) * itemsPerPage
         }`,
       )
